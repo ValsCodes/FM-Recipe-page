@@ -19,10 +19,11 @@ body {
     font-size: var(--font-size-desktop-text-preset-1, 40px);
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 40px */
+    line-height: 100%;
+    /* 40px */
 }
 
-.font-text{
+.font-text {
     color: var(--color-stone-600, #5F564D);
     /* Desktop/text-preset-4 */
     font-family: Outfit;
@@ -32,14 +33,15 @@ body {
     line-height: 150%;
 }
 
-.font-colored-text{
+.font-colored-text {
     color: var(--color-brown-800, #854632);
     /* Desktop/text-preset-4-bold */
     font-family: Outfit;
     font-size: var(--font-size-desktop-text-preset-4, 16px);
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
 }
 
 .font-sections {
@@ -74,12 +76,12 @@ ul li {
     text-indent: 1rem;
 }
 
-ul li::marker{
+ul li::marker {
     color: var(--color-brown-800, #854632);
 }
 
 ol li {
-    color: var(--color-stone-600, #5F564D);   
+    color: var(--color-stone-600, #5F564D);
     font-family: Outfit;
     font-size: var(--font-size-desktop-text-preset-4, 16px);
     font-style: normal;
@@ -90,9 +92,9 @@ ol li {
 
 ol li::marker {
     color: var(--color-brown-800, #854632);
-font-family: Outfit;
-font-size: var(--font-size-desktop-text-preset-4, 1rem);
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 1rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
